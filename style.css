@@ -325,7 +325,8 @@ a:hover {
 .nav>li {
 	float: left;
 	margin-top: 4px;
-	font-size: 16px
+	font-size: 16px;
+	list-style-type: none;
 }
 
 .navbar-nav .open .dropdown-menu>li>a {
@@ -507,7 +508,10 @@ button {
 
 .form-control {
 	border-color: rgba(0, 0, 0, .1);
-	box-shadow: none
+	box-shadow: none;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	display: block;
 }
 
 .scrollToTop {
@@ -910,8 +914,8 @@ h4 {
 	}
 	.navbar .nav {
 		padding-top: 0;
-		border-top: 1px solid rgba(0, 0, 0, .2);
-		float: none!important
+		float: none!important;
+		list-style-type: none;
 	}
 	.navbar.row {
 		margin-left: 0;
@@ -927,7 +931,7 @@ h4 {
 		margin-top: 0;
 		border-bottom: 1px solid rgba(0, 0, 0, .1);
 		background: rgba(0, 0, 0, .05);
-		text-align: left;
+		text-align: center;
 		padding-left: 15px;
 		width: 100%
 	}
@@ -957,7 +961,6 @@ h4 {
 	}
 	.navbar-collapse {
 		padding: 0;
-		overflow-x: hidden;
 		-webkit-box-shadow: none;
 		box-shadow: none
 	}
@@ -1026,17 +1029,6 @@ h4 {
 		width: 180px;
 		height: 320px
 	}
-}
-
-#ajust {
-	display: inline-block;
-	margin-right: 120px;
-	text-decoration: none
-}
-
-#ajust1 {
-	display: inline-block;
-	margin-left: 5px
 }
 
 @media (max-width:400px) {
